@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/8c521e339e.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Staatliches&display=swap');
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <title>ROI Calculator</title>
+</head>
+<body>
+  <div class="full-page">
+    <h1 style="font-family: Poppins;font-style: normal;font-weight: bold;">ROI Calculator</h1> 
+    <div class="container">
+      <div style="display: inline;padding: 5px;padding-bottom: 5px;">CAKE</div>
+      <div style="display: inline;padding: 5px;">
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div style="display: inline; padding:5px;">USD</div>
+    </div><br><br>
+    <input type="text" id="number" value="0.000USD" style="font-weight:bold;text-align:right;font-size:larger">
+    <br><br>
+    <div>
+      <button class="button">USE BALANCE</button>
+      <button class="button">$1000</button>
+      <button class="button">$100</button>
+      </div>
+    <!-- Time frame -->
+    <div>
+      <h3>Timeframe</h3>
+      <div>
+        <button class="button" >1Day</button>
+        <button class="button">7Days</button>
+        <button class="button">30Days</button>
+        <button class="button">1Year</button>
+        <button class="button">5Years</button>
+      </div>
+    </div><br><br>
+    <!-- Enable Accelerated APY -->
+    <div>
+      <h3 style="display: inline;">Enable Accelerated APY</h3>
+      <div style="display: inline;float: right;">
+      <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+      </label></div>
+    </div>
+        <h4 style="opacity: 0.5;">Select Tier</h4>
+      <div>
+        <button class="button">Tier1</button>
+        <button class="button">Tier2</button>
+        <button class="button">Tier3</button>
+        <button class="button">Tier4</button>
+        <button class="button">Tier5</button>
+      </div><br><br>
+      <div style="float:right;opacity: 0.5;">ROI at Current Rates</div>
+      <input type="text" id="number" value="0.00USD" style="font-weight:bold;text-align:right;font-size:larger">
+      <div style="float:right;opacity: 0.5;">~0.000 CAKE + 0.000000 DON</div>
+   <br><br>
+    <div>
+      <button class="btn" style="display: inline;background-color: black;color: white;">Apply</button>
+      <button class="btn" style="display: inline;float: right;">Cancel</button>
+    </div><br><br>
+    <div style="text-align: center;font-weight: bold;">Hide Details</div><br><br>
+    
+    <!-- APY -->
+    <h3 style="display: inline;">APY</h3> 
+    <span style="display:inline;font-weight: bold;font-size:x-large;float: right;
+    color: #fceb74;">9.0%</span>
+    <div>
+      <ul>
+        <li>Calculated based on current rates.</li>
+        <li>All figures are estimates provided for your convenience only, and by no means represent guaranteed returns.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
